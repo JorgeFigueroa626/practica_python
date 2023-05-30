@@ -30,4 +30,7 @@ def desplasamientoVehiculo(vehiculo):
 #----------APLICAMOS EL POLIMORFISMO
 miVehiculo=Camion()
 #miVehiculo=Moto()
+#RECORE TODA LA INFOPRMACION
+for vehiculo in (Camion,Moto, Camion):
+    vehiculo.desplasamiento(miVehiculo)
 desplasamientoVehiculo(miVehiculo)
