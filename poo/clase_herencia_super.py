@@ -22,5 +22,5 @@ class Empleado(Persona):
 Luis=Empleado(2500,15,"Luis", 25, "Santa Cruz")
 Luis.descripcion()
 
-#CONSULTAMOS DE LUIS ES DE LA CLASE PERSONA
+#CONSULTAMOS DE LUIS ES DE LA CLASE PERSONA FALSO o TRUE
 print(isinstance (Luis, Persona))

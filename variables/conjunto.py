@@ -23,4 +23,37 @@ resultado = conjunto2 > conjunto1
 resultado = conjunto2.isdisjoint(conjunto1)
 
 
-print(resultado)
+#print(resultado)
+
+###----------CONJUNTO----------------
+set ={1,2,3,4}
+
+#AGREGAR
+#set.add(5)
+
+#ELIMINAR
+#set.clear()
+
+#DESCARTAR UN NUMERO
+#set.discard(2)
+
+#eliminar
+#set.remove(3)
+#print(set)
+
+#-------#############
+
+a={1,2,3,4,5}
+b={4,5,6,7,8,9,0}
+
+#union
+print(a | b)
+
+#intercentado 4,5
+print(a & b)
+
+#diferencia 123
+print(a  - b)
+
+#diferencia simetrica 1236789
+print(a ^ b)

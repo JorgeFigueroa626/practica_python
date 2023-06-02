@@ -1,28 +1,26 @@
 """
-     EJERCICIO DE CONDICIONALES
+    # EJERCICIO DE CONDICIONALES
 
 ########
-
 edat=12
-
 if edat >= 15:
-    prin("podes pasar")
+    print("podes pasar")
 else:
-    prin("no podes pasar")
-    prin("myu mal")
-prin("no forma de ningun condicional")
+    print("no podes pasar")
+    print("myu mal")
+#print("no forma de ningun condicional")
 
-##############
+#######
 
 contraseña_alamcenadaDB="pedro"
 contraseña_alamcenadaDB="toto"
 
 if contraseña_alamcenadaDB == contraseña_alamcenadaDB:
-    prin("INICIA NSESSION..")
+    print("INICIA NSESSION..")
 else:
-    prin("no podes pasar")
-    prin("myu mal")
-prin("no forma de ningun condicional")
+    print("no podes pasar")
+    print("myu mal")
+#print("no forma de ningun condicional")
 
 
 ############
@@ -31,31 +29,30 @@ prin("no forma de ningun condicional")
 
 ingreso_mensual=9000
 gasto_mensual=8000
-
 if ingreso_mensual > 10000:
-    if ingreso_mensual - gastos_mensual < 0:
-        print("estas en deficit)
-    elif ingreso_mensual - gastos_mensual > 3000:
+    if ingreso_mensual - gasto_mensual < 0:
+        print("estas en deficit")
+    elif ingreso_mensual - gasto_mensual > 3000:
         print("estas bien")
     else:
         print("y estas gastanto mucho, te alacanza")
 
 elif ingreso_mensual > 1000:
-    print(estas bien latina)
+    print("estas bien latina")
 elif ingreso_mensual > 500:
-    print(estas bien bolivia)
+    print("estas bien bolivia")
 elif ingreso_mensual > 200:
-    print(estas bien venesuela)
+    print("estas bien venesuela")
 
 else:
-    print(estas pobre)
+    print("estas pobre")
 
 
 
 
 
 # AND
-Resultado = 10 ==10 & 10=10
+#Resultado = 10 ==10 & 10=10
 
 Resultado = True & True # True
 Resultado2 = False & True # False
@@ -76,7 +73,8 @@ Resultado9 = not 2==2
 Resultado9 = not True # False
 Resultado10 = not False # True
 
-print(Resultado9)
+#print(Resultado9)
+
 ######################
 
 print("****************")
@@ -313,5 +311,5 @@ while nu1 < 10:
 
 print("Fin del programa, se ejecuto el break")
 
+
 """
- 
